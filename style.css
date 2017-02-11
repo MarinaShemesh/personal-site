@@ -5,15 +5,9 @@ body {
 
 h1 p {
   margin: 0;
-  color: white;
   font-family: 'Josefin', sans-serif;
   font-weight: bold;
-  padding: 25px;
-}
-
-h3 {
-	color:black;
-}
+  }
 
 nav li {
   display: inline-block;
@@ -50,15 +44,52 @@ nav li a {
 }
 
 .about_block {
-  height:200px;
-  width: 300px;
+  height:250px;
+  width: 600px;
   background-color:white;
-  padding: 20px 20px 100px 20px;
-  margin: 30px 10px 10px 10px;
+  padding: 10px 20px 100px 20px;
+  border: 10px;
   font-family: 'Josefin', sans-serif;
-  float: left;
-}
+  }
+
+  .about-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display:inline;
+   }
 
 section {
   background-color: #778899;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Josefin', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:white;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 33.333%;xt
+}
+
+.column-inner {
+  padding: 10px;
+  }
+
+.portfolio {
+  font-family: 'Josefin', sans-serif; 
+  padding: 10px 20px 400px 20px;
+  
+}
+
+.contact_me {
+  font-family: 'Josefin', sans-serif; 
+  padding: 10px 20px 100px 20px;
+  
 }
